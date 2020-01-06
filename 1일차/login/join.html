@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8";
+  </head>
+  <body>
+    <form method="POST" action="join.php">
+      <div align="center">
+        <table width="600">
+          <tr>
+            <td>회원 ID</td>
+            <td><input type="text" name="user_id" /></td>
+          </tr>
+          <tr>
+            <td>비밀번호</td>
+            <td><input type="text" name="user_password" /></td>
+          </tr>
+          <tr>
+            <td>비밀번호 확인</td>
+            <td><input type="text" name="chk_password" /></td>
+          </tr>
+          <tr>
+            <td>이름</td>
+            <td><input type="text" name="user_name" /></td>
+          </tr>
+          <td>성별</td>
+          <td>
+            <input type="radio" name="gender" value="여성"/>여성
+            <input type="radio" name="gender" value="남성" />남성
+          </td>
+          <td></td>
+          <tr>
+            <td>집전화</td>
+            <td><input type="text" name="user_tp" /></td></td>
+          </tr>
+          <tr>
+            <td>휴대전화</td>
+            <td><input type="text" name="user_cp" /></td></td>
+          </tr>
+          <tr>
+            <td>이메일</td>
+            <td><input type="text" name="user_mail" /></td></td>
+          </tr>
+          <tr>
+            <td>주소</td>
+            <td>
+                <input type="text" name="user_post" placeholder="우편번호"/>
+                <input type="button" name="button1" value="우편번호 찾기"></button>
+                <br><input type="text" name="user_roadadd1"  placeholder="도로명주소"/>
+                <input type="text" name="user_roadadd2" placeholder="지번주소"/>
+                <br><input type="text" name="user_roadadd3" placeholder="나머지주소"/>
+            </td>              
+          </tr>
+          <tr>
+            <td>취미</td>
+            <td>
+                <input type="checkbox" name="hobby[]" value="낚시" />낚시
+                <input type="checkbox" name="hobby[]" value="노래"/>노래
+                <input type="checkbox" name="hobby[]" value="그림 그리기"/>그림 그리기
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="회원가입 하기" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>
