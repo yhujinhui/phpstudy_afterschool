@@ -1,2 +1,2 @@
 # phpstudy_afterschool
-혜정쌤과 함께하는 3일간 phpstudy
+방과후 phpstudy (1/6~1/8) 
